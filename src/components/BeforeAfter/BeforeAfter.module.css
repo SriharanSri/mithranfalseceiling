@@ -1,0 +1,10 @@
+.wrap {
+  padding-block: var(--section-py);
+  background: var(--bg-800);
+  border-block: 1px solid var(--border);
+}
+
+.sliderWrap {
+  max-width: 960px;
+  margin-inline: auto;
+}

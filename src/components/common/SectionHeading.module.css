@@ -1,0 +1,15 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3.5rem;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.center .section-subtitle {
+  margin-inline: auto;
+}

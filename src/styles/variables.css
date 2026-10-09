@@ -1,0 +1,48 @@
+:root {
+  /* Backgrounds — warm charcoal, modern neutral */
+  --bg-900: #0f0e0d;
+  --bg-800: #161412;
+  --bg-700: #1e1b18;
+  --bg-600: #262320;
+  --surface: #141210;
+  --bg-rgb: 15, 14, 13;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(236, 106, 78, 0.38);
+
+  /* Accent — terracotta (variable names kept as --gold* for compatibility) */
+  --accent-rgb: 236, 106, 78;
+  --gold: #ec6a4e;
+  --gold-light: #f5856c;
+  --gold-dark: #ce512e;
+  --gold-soft: rgba(236, 106, 78, 0.12);
+
+  /* Accent aliases (preferred for new code) */
+  --accent: var(--gold);
+  --accent-light: var(--gold-light);
+  --accent-dark: var(--gold-dark);
+  --accent-soft: var(--gold-soft);
+
+  /* Text — warm whites */
+  --text-white: #fbf9f6;
+  --text-soft: #efebe5;
+  --text-muted: #afa89f;
+  --text-dim: #837c73;
+
+  /* Typography — trendy geometric sans (Noto Sans Tamil covers Tamil glyphs) */
+  --font-heading:
+    "Space Grotesk", "Noto Sans Tamil", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", "Noto Sans Tamil", system-ui, -apple-system, sans-serif;
+
+  /* Layout */
+  --container: 1200px;
+  --radius: 14px;
+  --radius-sm: 9px;
+
+  /* Effects */
+  --shadow-soft: 0 24px 70px rgba(0, 0, 0, 0.55);
+  --transition: 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Spacing */
+  --section-py: clamp(4rem, 9vw, 8rem);
+}
